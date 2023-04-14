@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.RandomAstronomy3" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/nasa_blue</item>
+        <item name="colorPrimaryVariant">@color/nasa_blue</item>
+        <item name="colorOnPrimary">@color/nasa_white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/nasa_red</item>
+        <item name="colorSecondaryVariant">@color/nasa_red</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="TextAppearance.Title" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="android:textSize">19sp</item>
+        <item name="android:textColor">@color/nasa_white</item>
+        <item name="android:shadowColor">@color/nasa_red</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Large</item>
+        <item name="android:fontFamily">@font/anton</item>
+        <item name="android:scrollHorizontally">false</item>
+    </style>
+</resources>
